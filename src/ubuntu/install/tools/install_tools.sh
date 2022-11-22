@@ -22,7 +22,7 @@ else
   locale-gen en_US.UTF-8
 fi
 
-if [ "$DISTRO" = "ubuntu" ]; then
+if [ "$REAL_DISTRO" = "ubuntu" ]; then
   #update mesa to latest
   add-apt-repository ppa:kisak/kisak-mesa
   apt full-upgrade -y
