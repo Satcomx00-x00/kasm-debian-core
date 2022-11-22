@@ -1,6 +1,6 @@
 ARG BASE_IMAGE="debian:stable-slim"
 FROM $BASE_IMAGE AS install_tools
-ARG DISTRO=debian
+ARG DISTRO=kali
 ARG REAL_DISTRO=debian
 # qsd
 LABEL "org.opencontainers.image.authors"='Satcomx00, Github :@satcomx00'
@@ -13,7 +13,7 @@ ARG START_PULSEAUDIO=0
 ARG BG_IMG=bg_kasm.png
 ARG EXTRA_SH=noop.sh
 ARG DISTRO=ubuntu
-ARG REAL_DISTRO=debian
+ARG REAL_DISTRO=kali
 ARG LANG='en_US.UTF-8'
 ARG LANGUAGE='en_US:en'
 ARG LC_ALL='en_US.UTF-8'
