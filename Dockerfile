@@ -1,7 +1,7 @@
 ARG BASE_IMAGE="debian:stable-slim"
 FROM $BASE_IMAGE AS install_tools
 ARG DISTRO=debian
-
+# qsd
 LABEL "org.opencontainers.image.authors"='Satcomx00, Github :@satcomx00'
 LABEL "com.kasmweb.image"="false"
 LABEL "com.kasmweb.gpu_acceleration_egl"="nvidia"
