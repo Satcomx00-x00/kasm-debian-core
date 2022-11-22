@@ -1,4 +1,4 @@
-ARG BASE_IMAGE="stable-slim"
+ARG BASE_IMAGE="debian:stable-slim"
 FROM $BASE_IMAGE AS install_tools
 ARG DISTRO=debian
 
